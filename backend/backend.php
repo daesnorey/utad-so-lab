@@ -9,12 +9,11 @@ if (!$mysqli) {
 	exit;
 }
 
-$response = [];
+$response = ["empty" => true];
 
 switch ($_REQUEST["action"]) {
 	case "login":
 		require_once("login.php");
-		exit("{uu: 1}");
 		$response = login($mysqli);
 	break;
 }
