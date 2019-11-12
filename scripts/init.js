@@ -22,7 +22,7 @@
                 _updatesView();
             },
             get: function() {
-                return localStorage.setItem('logged', value) === 'true';
+                return localStorage.getItem('logged') === 'true';
             }
         })
     }
