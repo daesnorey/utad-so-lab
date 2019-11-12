@@ -11,6 +11,7 @@ if (!$mysqli) {
 
 $response = [];
 
+echo $_SERVER["CONTENT_TYPE"];
 echo "antes de switch". $_POST["action"].$_REQUEST["action"];
 echo file_get_contents("php://input");
 
