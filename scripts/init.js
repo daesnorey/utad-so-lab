@@ -33,7 +33,11 @@
     }
 
     function _checkLoginResponse(data) {
-        console.log(data);
+        if (!data || !data.length) {
+            alert('Error en inicio de sesión');
+        } else {
+            alert('Sesión iniciada correctamente');
+        }
     }
 
 }());
