@@ -21,7 +21,7 @@ $data = json_decode($data);
 switch ($data->action) {
 	case "login":
 		require_once("login.php");
-		$response = login($mysqli);
+		$response = login($mysqli, $data);
 	break;
 }
 
