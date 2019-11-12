@@ -1,13 +1,30 @@
 (function() {
 
+    var data = null;
+
     document.addEventListener('DOMContentLoaded', _init);
 
     function _init() {
         _addPageEvents();
+        _inititalizeData();
+        _updatesView();
     }
 
     function _addPageEvents() {
         document.getElementById('loginform').addEventListener('submit', _loginFormSubmitted);
+    }
+
+    function _inititalizeData() {
+        data = {};
+        Object.defineProperty('logged', {
+            set: function(value) {
+                localStorage.setItem('logged', value);
+                _updatesView();
+            },
+            get: function() {
+                return localStorage.setItem('logged', value) === 'true';
+            }
+        })
     }
 
     function _loginFormSubmitted(e) {
@@ -37,6 +54,18 @@
             alert('Error en inicio de sesión');
         } else {
             alert('Sesión iniciada correctamente');
+        }
+    }
+
+    function _updatesView() {
+        var unloggedView = document.getElementById('unloggedView');
+        var loggedView = document.getElementById('loggedView');
+        if (data.logged) {
+            unloggedView.classList.add('hidden');
+            loggedView.classList.remove('hidden');
+        } else {
+            unloggedView.classList.remove('hidden');
+            loggedView.classList.add('hidden');
         }
     }
 

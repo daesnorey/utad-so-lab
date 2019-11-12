@@ -153,3 +153,6 @@ ul, p {
     background-position: center;
 }
 
+.hidden {
+    display: none!important;
+}

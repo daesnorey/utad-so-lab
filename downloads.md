@@ -9,12 +9,12 @@
     <h1>Descargas Sistemas Operativos - Servidores Web</h1>
     <ul>
         <li>
-            <a href="files/ManualInstalacionServidorWebApacheConPHP.pdf" download="ManualInstalacionServidorWebApacheConPHP.pdf">
+            <a href="https://github.com/daesnorey/utad-so-lab/raw/master/files/ManualInstalacionServidorWebApacheConPHP.pdf" download="ManualInstalacionServidorWebApacheConPHP.pdf">
                 Manual Instalación Servidor Web Apache (Debian)
             </a>
         </li>
         <li>
-            <a href="files/debian web server x32.ova" download="debian web server x32.ova">
+            <a href="https://drive.google.com/file/d/1Xk3_4WR1e-JbTdeFE4IgT4_5qXOf0tkj/view" download="debian web server x32.ova">
                 Disco duro virtual debian x32
             </a>
         </li>
