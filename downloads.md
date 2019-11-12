@@ -19,13 +19,18 @@
             </a>
         </li>
         <li>
-            <a href="files/debian web server x64.ova" download="debian web server x64.ova">
+            <a href="https://drive.google.com/file/d/1GutIWUKOGudZGllKYlwLjL05ajwqIBtj/view?usp=sharing" download="debian web server x64.ova">
                 Disco duro virtual debian x64
             </a>
         </li>
         <li>
-            <a href="https://geekflare.com/open-source-web-servers/" rel="noopener noreferrer">
+            <a href="https://geekflare.com/open-source-web-servers/" rel="noopener noreferrer" target="_blank">
                 7 Servidores Web Open Source
+            </a>
+        </li>
+        <li>
+            <a href="https://codecurmudgeon.com/wp/sql-injection-hall-of-shame/" rel="noopener noreferrer" target="_blank">
+                Sql Injection - Salon de la vergüenza
             </a>
         </li>
     </ul>
