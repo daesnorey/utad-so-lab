@@ -13,6 +13,7 @@ $response = [];
 
 switch ($_POST["action"]) {
 	case "login":
+		echo "login";
 		require_once("login.php");
 		$response = login($mysqli);
 	break;

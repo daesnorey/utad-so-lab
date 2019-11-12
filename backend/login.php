@@ -1,6 +1,7 @@
 <?php
 
 function login($link) {
+    echo "entra a login";
     $username = $_POST["username"];
     $password = $_POST["password"];
     // $password = "1' OR 1 = 1 UNION ALL SELECT 1, table_name FROM information_schema.tables WHERE table_schema = database() OR '' = '33";
