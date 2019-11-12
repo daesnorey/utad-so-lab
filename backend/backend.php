@@ -9,11 +9,9 @@ if (!$mysqli) {
 	exit;
 }
 
-$response = ["empty" => true];
+$response = [];
 
-exit(json_encode($_POST));
-
-switch ($_REQUEST["action"]) {
+switch ($_POST["action"]) {
 	case "login":
 		require_once("login.php");
 		$response = login($mysqli);
