@@ -11,6 +11,8 @@ if (!$mysqli) {
 
 $response = ["empty" => true];
 
+exit(json_encode($_REQUEST));
+
 switch ($_REQUEST["action"]) {
 	case "login":
 		require_once("login.php");
