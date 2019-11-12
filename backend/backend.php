@@ -17,11 +17,9 @@ if (!$data) {
 }
 
 $data = json_decode($data);
-echo $data->action;
 
 switch ($data->action) {
 	case "login":
-		echo "login";
 		require_once("login.php");
 		$response = login($mysqli);
 	break;
