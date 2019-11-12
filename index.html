@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <title>Hacker Pene</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -9,7 +10,7 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/estilo.css">
 
-    <title>Hacker Pene</title>
+    <script src="scripts/init.js"></script>
 </head>
 <body>
 
@@ -31,14 +32,14 @@
         <h2 class="tlogin">Jakiar </br> sistemas </br> Opertivos</h2>
 
         <div class="formlogin">
-            <form action="">
+            <form action="" id="loginform">
                 <!--individuo capa 8-->
-                <input type="text" placeholder="Usuario" class="intext">
+                <input type="text" id="username" name="username" placeholder="Usuario" class="intext">
 
                 <!--contraseña no 123456-->
-                <input type="password" placeholder="Contraseña" class="intext">
+                <input type="password" id="password" name="password" placeholder="Contraseña" class="intext" required>
 
-                <input type="submit" class="boton botonper" value="Entrar">
+                <input type="submit" class="boton botonper" value="Entrar" required>
 
                 <a href="otra.html" class="enlaces">Ño me e la contraseña :(</a>
                 <a href="otra2.html" class="enlaces">Regisstrarme</a>
