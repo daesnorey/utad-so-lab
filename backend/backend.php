@@ -11,7 +11,7 @@ if (!$mysqli) {
 
 $response = ["empty" => true];
 
-exit(json_encode($_REQUEST));
+exit(json_encode($_POST));
 
 switch ($_REQUEST["action"]) {
 	case "login":
