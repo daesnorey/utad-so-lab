@@ -16,13 +16,9 @@ if (!$data) {
 	$data = json_encode($_REQUEST);
 }
 
-echo $data;
-
 $data = json_decode($data);
 
-echo $data;
-
-switch ($data->action) {
+switch ($data["action"]) {
 	case "login":
 		echo "login";
 		require_once("login.php");
