@@ -11,11 +11,18 @@ if (!$mysqli) {
 
 $response = [];
 
-echo $_SERVER["CONTENT_TYPE"];
-echo "antes de switch". $_POST["action"].$_REQUEST["action"];
-echo file_get_contents("php://input");
+$data = file_get_contents("php://input");
+if (!$data) {
+	$data = json_encode($_REQUEST);
+}
 
-switch ($_POST["action"]) {
+echo $data;
+
+$data = json_decode($data);
+
+echo $data;
+
+switch ($data->action) {
 	case "login":
 		echo "login";
 		require_once("login.php");
