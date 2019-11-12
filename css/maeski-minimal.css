@@ -1,0 +1,160 @@
+/*
+
+   m a e s k i minimal css
+   2/nov/2019
+
+*/
+
+/* 
+- Colores      (Colors)
+- Cuadricula   (Grid)
+*/
+
+*{
+    font-family:  montserrat ;
+}
+
+/*--------------------------------------------------
+                    Colores
+––––––––––––––––––––––––––––––––––––––––––––––––––*/
+:root{
+	--primario: #6f30a0 ;
+}
+
+.primario{
+    background-color: var(--primario);
+    color: var(--primario);
+}
+
+/*--------------------------------------------------
+                    Cuadricula
+––––––––––––––––––––––––––––––––––––––––––––––––––*/
+.contenido {
+    position: relative;
+    width: 100%;
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 0 5%;
+    box-sizing: border-box;
+}
+
+.fila {
+    
+    margin: 0 auto;
+    padding: 0px 0px;
+    display: block;
+    box-sizing: border-box; 
+}
+
+.col{
+    text-align: center;
+    display: inline-block;
+    box-sizing: border-box; 
+}
+
+.ancho-1 {width:5.555555555555555%;}                                                                                                                       
+.ancho-2 {width:11.11111111111111%;}                                                                                                                       
+.ancho-3 {width:16.666666666666664%;}                                                                                                                      
+.ancho-4 {width:22.22222222222222%;}                                                                                                                       
+.ancho-5 {width:27.77777777777778%;}                                                                                                                       
+.ancho-6 {width:33.33333333333333%;}                                                                                                                       
+.ancho-7 {width:38.888888888888886%;}                                                                                                                      
+.ancho-8 {width:44.44444444444444%;}                                                                                                                       
+.ancho-9 {width:50.0%;}                                                                                                                                    
+.ancho-10 {width:55.55555555555556%;}                                                                                                                      
+.ancho-11 {width:61.11111111111111%;}                                                                                                                      
+.ancho-12 {width:66.66666666666666%;}                                                                                                                      
+.ancho-13 {width:72.22222222222221%;}                                                                                                                      
+.ancho-14 {width:77.77777777777777%;}                                                                                                                      
+.ancho-15 {width:83.33333333333333%;}                                                                                                                      
+.ancho-16 {width:88.88888888888889%;}                                                                                                                      
+.ancho-17 {width:94.44444444444444%;}                                                                                                                      
+.ancho-18 {width:100.0%;}
+
+.alto-1 {height:60px;}                                                                                                                                     
+.alto-2 {height:120px;}                                                                                                                                    
+.alto-3 {height:180px;}                                                                                                                                    
+.alto-4 {height:240px;}                                                                                                                                    
+.alto-5 {height:300px;}                                                                                                                                    
+.alto-6 {height:360px;}                                                                                                                                    
+.alto-7 {height:420px;}                                                                                                                                    
+.alto-8 {height:480px;}                                                                                                                                    
+.alto-9 {height:540px;}                                                                                                                                    
+.alto-10 {height:600px;}                                                                                                                                   
+.alto-11 {height:660px;}
+
+
+/*
+------------------------------------------------
+Posicion
+---------------------------------------------------
+*/
+.centrado{text-align: center;}
+.izquierda{text-align: left;}
+.derecha{text-align: right;}
+.inicio{text-align: start;}
+.final{ text-align: end;}
+
+.medio{ /*ese de debe poner en lo que se desea al medio y no en lo que lo contiene*/
+    position: relative;
+    top: 50%;           
+                        /*-50*/
+    transform: translate(0%, -50% );
+}
+
+/*
+------------------------------------------------
+Botones
+---------------------------------------------------
+*/
+.boton{
+    display: inline-block;
+    height: 38px;
+    padding: 10px 30px;
+    margin: 0 10px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 0;
+    letter-spacing: .2rem;
+    text-transform: lowercase;
+    text-decoration: none;
+    white-space: normal;
+    background-color: transparent;
+    border-radius: 100px;
+    border: 2px solid black;
+    cursor: pointer;
+    box-sizing: border-box; }
+
+    .circulo{
+     border-radius: 100%;
+     border: 2px solid black;
+     height: 38px;
+     width: 38px;
+     padding: 0;
+     text-align: center;
+     box-sizing: border-box;
+    }
+      
+    
+ /*
+------------------------------------------------
+letras
+---------------------------------------------------
+*/
+.neon{
+    text-shadow: 0 0 2px #FFA1A4;
+    
+}
+
+
+  
+ 
+ /*
+------------------------------------------------
+iconos
+---------------------------------------------------
+*/
+
+
+
+

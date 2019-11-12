@@ -1,0 +1,155 @@
+body{
+    background-color: #201f20;
+    color: ;
+    margin: 0;
+    max-height: 100vh;
+    overflow: hidden;
+}
+
+.prueba{
+    width: 130px;
+    height:45px;
+    font-size: 20px;
+    line-height: 40px; 
+    color: #FFA1A4;
+
+    display: flex;
+
+    position: absolute;
+    top: 90%;
+    left: 85%;
+    right: 0;
+
+    margin: auto;
+
+    overflow: hidden;
+}
+
+ul{
+    list-style: none;
+    padding: 0px;  
+
+    animation: cambiar 7s infinite;
+}
+
+ul, p {
+    margin: 0;
+}
+
+
+@keyframes cambiar {
+
+    0%{ margin-top: 0;}
+    30%{ margin-top: 0;}
+
+    33%{ margin-top: -40px;}
+    63%{ margin-top: -40px;}
+
+    66%{ margin-top: -80px;}
+    96%{ margin-top: -80px;}
+
+}
+
+
+.rosa{
+    background: #FFA1A4;
+   }
+.letras{
+    clear: both;
+    color: #FFA1A4;
+    font-size: 60px;
+    line-height: 0px;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+
+.caja-grupo{
+    display: inline-block;
+    position: absolute;
+    top: 5%;
+    left: 10%;
+}
+
+.caja-grupo .tlogin{
+    display: inline-block;
+    position: absolute;
+    top: 9%;
+    left: 13%;
+    color: honeydew;
+    font-size: 26px;
+}
+
+
+.caja-grupo .formlogin{
+    text-align: center;
+    width: 300px;
+    height: 200px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+
+}
+
+.caja-grupo .formlogin .intext {
+    background: none;
+    border: none;
+    margin: 20px auto;
+    padding: 10px;
+    color: #E5DC7D;
+    text-align: center;
+    border-bottom: 1px solid #FFA1A4;
+}
+
+.botonper{
+    margin: 30px auto;
+    display: block;
+    color: white;
+    background: #8C4D7E;
+    border-color: #8C4D7E;
+}
+
+.enlaces{
+    text-decoration: none;
+    color: #FFA1A4;
+    font-size: 12px;
+    display: inline;
+    margin: 20px; 
+}
+
+.fondoliquido{
+    box-sizing: border-box;
+    position: absolute;
+    right:  0%;
+    top: -20%;
+    z-index: -1;
+}
+
+.logom{
+    position: absolute;
+    left: 100%;
+    transform: translate(-110%, 10%);
+}
+
+.texto{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-20%, -50%);
+
+}
+
+.imgcute{
+    background: url(../img/52770501_2220698684691145_6658514530865250304_n.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
