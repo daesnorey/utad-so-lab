@@ -11,7 +11,9 @@ if (!$mysqli) {
 
 $response = [];
 
-echo "antes de switch". $_POST;
+echo "antes de switch". $_POST["action"].$_REQUEST["action"];
+echo file_get_contents("php://input");
+
 switch ($_POST["action"]) {
 	case "login":
 		echo "login";
