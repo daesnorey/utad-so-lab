@@ -16,7 +16,7 @@
 
     function _inititalizeData() {
         data = {};
-        Object.defineProperty('logged', {
+        Object.defineProperty(data, 'logged', {
             set: function(value) {
                 localStorage.setItem('logged', value);
                 _updatesView();
