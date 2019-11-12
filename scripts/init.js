@@ -49,10 +49,12 @@
         });
     }
 
-    function _checkLoginResponse(data) {
-        if (!data || !data.length) {
+    function _checkLoginResponse(response) {
+        if (!response || !response.length) {
             alert('Error en inicio de sesión');
+            data.logged = false;
         } else {
+            data.logged = true;
             alert('Sesión iniciada correctamente');
         }
     }
