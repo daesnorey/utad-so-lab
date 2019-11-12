@@ -12,6 +12,9 @@
 
     function _addPageEvents() {
         document.getElementById('loginform').addEventListener('submit', _loginFormSubmitted);
+        document.getElementById('logout').addEventListener('click', function() {
+            data.logged = false;
+        });
     }
 
     function _inititalizeData() {
