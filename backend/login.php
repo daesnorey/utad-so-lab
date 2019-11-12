@@ -7,7 +7,6 @@ function login($mysqli, $data) {
 
     $query = "SELECT username, password FROM users WHERE username = '$username' AND password = '$password'";
 
-    echo $query;
     $response = [];
 
     if ($result = $mysqli->query($query)) {

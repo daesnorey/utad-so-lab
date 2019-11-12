@@ -16,8 +16,6 @@ if (!$data) {
 	$data = json_encode($_REQUEST);
 }
 
-echo $data;
-
 $data = json_decode($data);
 
 switch ($data->action) {

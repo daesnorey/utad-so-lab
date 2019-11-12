@@ -24,7 +24,7 @@
 
         fetch('/backend/backend.php', {
             method: 'POST',
-            body: JSON.stringify({username: username, password: password}),
+            body: JSON.stringify({username: username, password: password, action: 'login'}),
         })
         .then(res => res.json())
         .then(data => {
