@@ -11,6 +11,7 @@ if (!$mysqli) {
 
 $response = [];
 
+echo "antes de switch". $_POST;
 switch ($_POST["action"]) {
 	case "login":
 		echo "login";
